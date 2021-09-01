@@ -1,0 +1,19 @@
+CODIGO 2
+
+import javax.swing.JOptionPane;
+
+class Main {
+  public static void main(String[] args) {
+    int totalpassos = Integer.parseInt(JOptionPane.showInputDialog(null, "quantos passos faltam"));
+    int passos = 0;
+    while(passos < totalpassos){
+      passos++;
+      JOptionPane.showMessageDialog(null, "você deu "+passos+" passos");
+    }
+    if (passos == totalpassos){
+      JOptionPane.showMessageDialog(null, "Você chegou no final");
+    }
+  }
+}
+-------------------------------------------------------------------------------------------------------------
+
