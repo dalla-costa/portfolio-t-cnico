@@ -29,3 +29,7 @@ Conhecimento:
 ## Fundamentos de T.I
 
 https://github.com/dalla-costa/portfolio-t-cnico/blob/553289c2125a4789d0611a006da78990dbc7702c/fundamentosTI/Atividades
+
+## Logica Computacional
+
+https://github.com/dalla-costa/portfolio-t-cnico/blob/84a9814cffa173a7e1a19932fcc50004b0177b08/logicacomputacional/Atividades
