@@ -1,0 +1,22 @@
+CODIGO 1
+import javax.swing.JOptionPane;
+
+class Main {
+    String nome;
+    int anoDeNasc;
+    int anoAtual;
+  public static void main(String[] args) {
+    Main m = new Main();
+    m.id();
+  }
+public void id (){
+nome = JOptionPane.showInputDialog("digite seu nome");
+anoDeNasc = Integer.parseInt(JOptionPane.showInputDialog("digite seu ano e nascimento"));
+anoAtual = Integer.parseInt(JOptionPane.showInputDialog("o ano atual"));
+int idade = anoAtual - anoDeNasc;
+nome = nome+" sua idade é "+idade;
+JOptionPane.showMessageDialog(null, nome);
+}
+}
+------------------------------------------------------------------------------------------------
+
